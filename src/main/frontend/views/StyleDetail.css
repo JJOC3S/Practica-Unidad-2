@@ -1,0 +1,42 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    gap: var(--lumo-space-xl);
+    height: auto;
+    width: 100%;
+    padding: var(--lumo-space-l);
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: var(--lumo-space-s);
+    padding: var(--lumo-space-m);
+    background-color: var(--lumo-base-color);
+    border-radius: 8px;
+    box-shadow: var(--lumo-box-shadow-s);
+    width: fit-content;
+}
+
+.info-section {
+    min-width: 300px;
+    width: fit-content;
+}
+
+.edit-section {
+    min-width: 300px;
+    width: fit-content;
+}
+
+.section h2,
+.section h3 {
+    margin: 0;
+}
+
+.buttons-wrapper {
+    margin-top: var(--lumo-space-m);
+    display: flex;
+    justify-content: flex-start;
+}

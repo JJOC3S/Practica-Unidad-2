@@ -1,6 +1,7 @@
 // TODO Replace with your own main view.
 
-import {ViewConfig} from "@vaadin/hilla-file-router/types.js";
+import {ViewConfig} from '@vaadin/hilla-file-router/types.js';
+
 
 export const config: ViewConfig = {
     menu: {

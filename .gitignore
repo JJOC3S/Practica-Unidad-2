@@ -1,14 +1,37 @@
+# Maven / Gradle
 /target/
-.idea/
-.vscode/
-.settings
-.project
-.classpath
+/build/
 
-*.iml
-.DS_Store
+# IntelliJ / Eclipse / VSCode
+/.idea/
+/.vscode/
+/*.iml
+*.class
 
-# The following files are generated/updated by vaadin-maven-plugin
-node_modules/
-src/main/frontend/generated/
+# Node.js
+/node_modules/
+/frontend/generated/
+/frontend/dist/
+/pnpm-lock.yaml
+package-lock.json
+npm-debug.log*
+.yarn-debug.log*
+.yarn-error.log*
+
+# Vaadin
+/.vaadin/
+/flow-frontend/generated/
+webpack.generated.js
 vite.generated.ts
+theme/generated/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local

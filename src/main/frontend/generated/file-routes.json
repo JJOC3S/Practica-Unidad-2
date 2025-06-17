@@ -1,0 +1,34 @@
+[
+  {
+    "route": "",
+    "flowLayout": false,
+    "params": {},
+    "title": "Main Layout",
+    "children": [
+      {
+        "route": "",
+        "menu": {
+          "exclude": true
+        },
+        "flowLayout": false,
+        "params": {},
+        "title": "Main"
+      },
+      {
+        "route": "cancion-detail-view",
+        "title": "No visible",
+        "menu": {
+          "exclude": true
+        },
+        "flowLayout": false,
+        "params": {}
+      },
+      {
+        "route": "cancion-list",
+        "flowLayout": false,
+        "params": {},
+        "title": "Cancion List"
+      }
+    ]
+  }
+]

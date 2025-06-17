@@ -1,0 +1,63 @@
+[
+  {
+    "route": "",
+    "flowLayout": false,
+    "params": {},
+    "title": "Main Layout",
+    "children": [
+      {
+        "route": "",
+        "menu": {
+          "exclude": true
+        },
+        "flowLayout": false,
+        "params": {},
+        "title": "Main"
+      },
+      {
+        "route": "artista-list",
+        "title": "Artista",
+        "menu": {
+          "icon": "vaadin:clipboard-check",
+          "order": 4,
+          "title": "Artista"
+        },
+        "flowLayout": false,
+        "params": {}
+      },
+      {
+        "route": "banda-list",
+        "title": "Banda",
+        "menu": {
+          "icon": "vaadin:clipboard-check",
+          "order": 2,
+          "title": "Banda"
+        },
+        "flowLayout": false,
+        "params": {}
+      },
+      {
+        "route": "cancion-list",
+        "title": "Cancion",
+        "menu": {
+          "icon": "vaadin:clipboard-check",
+          "order": 3,
+          "title": "Cancion"
+        },
+        "flowLayout": false,
+        "params": {}
+      },
+      {
+        "route": "task-list",
+        "title": "Task List",
+        "menu": {
+          "icon": "vaadin:clipboard-check",
+          "order": 1,
+          "title": "Task List"
+        },
+        "flowLayout": false,
+        "params": {}
+      }
+    ]
+  }
+]
